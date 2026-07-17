@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>malcolmston/matplotlib — matplotlib-style plotting for Go</title>
+<meta name="description" content="A small, dependency-free plotting and charting library for Go inspired by Python's matplotlib: a Figure/Axes model with a pyplot-style API, six chart types (line, scatter, bar, barh, histogram, pie), fluent per-series styling, a tab10 color cycle, and deterministic PNG and SVG output using only the standard library.">
+<script>
+  // Apply the shared light/dark choice before first paint to avoid a flash.
+  try { document.documentElement.setAttribute('data-theme', localStorage.getItem('mgo-theme') || 'dark'); } catch (e) {}
+</script>
+<script src="https://kit.fontawesome.com/00bdba4c90.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
