@@ -1,0 +1,10 @@
+{
+  "repo": "matplotlib",
+  "upstream": "matplotlib/matplotlib",
+  "parityBefore": "78%",
+  "parityAfter": "100%",
+  "upstreamCasesSynced": 8,
+  "gapsFound": 2,
+  "gapsClosed": 2,
+  "asOf": "2026-07-18"
+}
